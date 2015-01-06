@@ -1,0 +1,11 @@
+Checklist to make sure everything required is turned in
+[ ] plot1.png
+[ ] plot2.png
+[ ] plot3.png
+[ ] plot4.png
+[ ] plot1.R
+[ ] plot2.R
+[ ] plot3.R
+[ ] plot4.R
+[ ] update README
+[ ] code for reading data

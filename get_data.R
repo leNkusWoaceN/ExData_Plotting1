@@ -25,7 +25,7 @@ fileColClasses <- function(filename) {
 
 getData <- function() {
 
-  setwd('~/leNkusWoaceN/ExData_Plotting1')
+#  setwd('~/leNkusWoaceN/ExData_Plotting1')
 
   clean.file = 'power_consumption.txt'
 
@@ -65,7 +65,9 @@ getData <- function() {
     ]
     
     work.power.consumption$DateTime <- parse_date_time(
-      x = paste(as.Date(work.power.consumption$Date, format = "%m/%d/%Y"), work.power.consumption$Time),
+      x = paste(
+        as.Date(work.power.consumption$Date, format = "%d/%m/%Y"), 
+        work.power.consumption$Time),
       orders="ymd hms")
    
     power.consumption <- work.power.consumption[,c(10,3:9)]

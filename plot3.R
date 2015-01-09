@@ -13,7 +13,16 @@ power.consumption <- getData()
 png(filename='plot3.png',width=480,height=480,units='px')
 
 #plot data
-# ???
+plot(
+  power.consumption$DateTime,
+  power.consumption$Sub_metering_1,
+  type='l',
+  col='black',
+  xlab='',
+  ylab='Energy sub metering'
+)
+lines(power.consumption$DateTime,power.consumption$Sub_metering_2,col='red')
+lines(power.consumption$DateTime,power.consumption$Sub_metering_3,col='blue')
 
 # close device
 dev.off()

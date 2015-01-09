@@ -20,16 +20,16 @@ plot(
   power.consumption$Global_active_power,
   type='l',
   xlab='',
-  ylab='Global Active Power (kilowatts)'
+  ylab='Global Active Power'
 )
 
 # 1,2
 plot(
   power.consumption$DateTime,
-  power.consumption$Global_active_power,
+  power.consumption$Voltage,
   type='l',
-  xlab='',
-  ylab='Global Active Power (kilowatts)'
+  xlab='datatime',
+  ylab='Voltage'
 )
 
 # 2,1

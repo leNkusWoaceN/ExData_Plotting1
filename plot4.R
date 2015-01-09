@@ -47,16 +47,18 @@ lines(power.consumption$DateTime,power.consumption$Sub_metering_3,col='blue')
 legend(
   'topright',
   legend=c('Sub_metering_1','Sub_metering_2','Sub_metering_3'),
-  col   =c('black',         'red',           'blue')
+  col   =c('black',         'red',           'blue'),
+  lty='solid',
+  bty='n'
 )
 
 # 2,2
 plot(
   power.consumption$DateTime,
-  power.consumption$Global_active_power,
+  power.consumption$Global_reactive_power,
   type='l',
-  xlab='',
-  ylab='Global Active Power (kilowatts)'
+  xlab='datetime',
+  ylab='Global_reactive_power'
 )
 
 # close device

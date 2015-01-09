@@ -10,7 +10,7 @@ source("get_data.R")
 power.consumption <- getData()
 
 # open device
-png(filename='plot4.png',width=480,height=480,units='px')
+png(filename='plot4.png',width=480,height=480,units='px',bg = "transparent")
 
 par(mfrow=c(2,2))
 

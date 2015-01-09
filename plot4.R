@@ -7,7 +7,7 @@
 source("get_data.R")
 
 # load power.consumption 
-power.comsumption <- getData()
+power.consumption <- getData()
 
 # open device
 png(filename='plot4.png',width=480,height=480,units='px')

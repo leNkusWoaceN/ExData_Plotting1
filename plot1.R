@@ -11,7 +11,6 @@ power.consumption <- getData()
 
 # open device
 png(filename='plot1.png',width=480,height=480,units='px')
-print(dev.list())
 
 # plot data
 hist(

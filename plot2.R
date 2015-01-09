@@ -15,7 +15,7 @@ png(filename='plot2.png',width=480,height=480,units='px')
 #plot data
 plot(
   power.consumption$DateTime,
-  power.consumption$GlobalActivePower
+  power.consumption$Global_active_power
 )
 
 # close device

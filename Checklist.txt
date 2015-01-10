@@ -1,11 +1,19 @@
 Checklist to make sure everything required is turned in
-[ ] plot1.png
-[ ] plot2.png
-[ ] plot3.png
-[ ] plot4.png
-[ ] plot1.R
-[ ] plot2.R
-[ ] plot3.R
-[ ] plot4.R
-[ ] update README
-[ ] code for reading data
+[x] plot1.png
+[x] plot2.png
+[x] plot3.png
+  [x] box on legend
+  [x] line in legend
+[x] plot4.png
+  [x] no kilowatts on label g(1,1)
+  [x] no box on legend g(2,1)
+[x] plot1.R
+  [x] bg = "transparent")
+[x] plot2.R
+  [x] bg = "transparent")
+[x] plot3.R
+  [x] bg = "transparent")
+[x] plot4.R
+  [x] bg = "transparent")
+[x] update README
+[x] code for reading data

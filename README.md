@@ -1,3 +1,35 @@
+# Exploratory Data Analysis -- Course Project 1
+##  Jan 2015 -- exdata-010 
+##
+
+This repo contains the dot R and dot png files for the first class project of the Jan 2015
+Exploratory Data Analysis class project.
+## Require Files
+- plot1.R
+- plot1.png
+- plot2.R
+- plot2.png
+- plot3.R
+- plot3.png
+- plot4.R
+- plot4.png
+
+## additional files
+- README.md -- this file
+- figure  -- original reference plots (504x504)
+- get_data.R -- helper R function to fetch and prepare data
+- Checklist.txt -- assignment checklist to make sure requirements are met
+
+## reference figures
+
+The reference figures were 504x504 px.  The asssignment explicitly asked for 480x480, so the plot?.png files
+are created 480x480.
+
+The default background is white, the background in the reference figure is transparent.  Transparent was
+chosen for the plot?.png files
+
+
+Below is the original assignment:
 ## Introduction
 
 This assignment uses data from

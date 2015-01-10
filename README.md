@@ -29,7 +29,7 @@ The default background is white, the background in the reference figure is trans
 chosen for the plot?.png files
 
 
-Below is the original assignment:
+#Below is the original assignment:
 ## Introduction
 
 This assignment uses data from
